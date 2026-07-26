@@ -1,0 +1,191 @@
+body{
+    background: rgb(13, 13, 68);
+}
+
+fieldset{
+    background: white;
+    width: 600px;
+    height: 950px;
+    margin: auto;
+    margin-bottom: 30px;
+    border: 1px solid;
+}
+
+img{
+    width: 150px;
+    height: 150px;
+    text-align: center;
+    border-radius: 50%;
+    border: 1px solid;
+    object-fit: cover;
+}
+
+.i{
+    text-align: center;
+}
+
+.ii{
+    text-align: center;
+}
+
+h2{
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.ii p{
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+}
+
+.iii{
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.iii button{
+    background: rgb(13, 13, 68);
+    color: white;
+    width: 70%;
+    border-radius: 8px;
+    padding: 15px;
+    padding-left: 30px;
+    padding-right: 30px;
+    font-size: large;
+}
+
+.iii button:hover{
+    background:  rgb(38, 38, 145);;
+}
+
+.iv{
+    width: 70%;
+    margin: auto;
+    text-align: justify;
+}
+
+.v{
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.v button{
+    background: rgb(13, 13, 68);
+    color: white;
+    width: 70%;
+    border-radius: 8px;
+    padding: 15px;
+    padding-left: 30px;
+    padding-right: 30px;
+    font-size: large;
+}
+
+.v button:hover{
+    background:  rgb(38, 38, 145);;
+}
+
+/* Desktops */
+@media (max-width: 1440px){
+
+fieldset{
+    width: 65%;
+}
+
+.iv{
+    width: 75%;
+}
+
+}
+
+/* Tablets */
+@media (max-width: 1024px){
+
+fieldset{
+    width: 80%;
+    height: auto;
+}
+
+img{
+    width: 130px;
+    height: 130px;
+}
+
+.iii button,
+.v button{
+    width: 80%;
+}
+
+.iv{
+    width: 85%;
+    font-size: 16px;
+}
+
+}
+
+/* Phones */
+@media (max-width: 600px){
+
+fieldset{
+    width: 95%;
+    height: auto;
+    padding-bottom: 20px;
+}
+
+img{
+    width: 110px;
+    height: 110px;
+}
+
+h2{
+    font-size: 22px;
+}
+
+.ii p{
+    font-size: 15px;
+}
+
+.iv{
+    width: 90%;
+    font-size: 15px;
+}
+
+.iii button,
+.v button{
+    width: 90%;
+    font-size: 16px;
+    padding: 12px;
+}
+
+}
+
+input,
+textarea{
+
+width:100%;
+padding:12px;
+border:1px solid gray;
+border-radius:6px;
+font-size:16px;
+box-sizing:border-box;
+
+}
+
+textarea{
+
+resize:none;
+
+}
+
+label{
+
+font-weight:bold;
+font-family:'Times New Roman', Times, serif;
+
+}
+
+a{
+
+text-decoration:none;
+
+}

@@ -1,0 +1,42 @@
+@import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500;700&family=Space+Grotesk:wght@500;700&display=swap');
+
+:root {
+    --bg-1:#0d1117;
+    --bg-2:#111a22;
+    --panel:#151d27;
+    --line:#26333f;
+    --accent:#5eead4;
+    --accent-2:#7dd3fc;
+    --text:#e6edf3;
+    --muted:#8b9bab;
+    --font-family: 'JetBrains Mono', monospace;
+}
+
+*{ 
+    box-sizing: border-box; 
+}
+
+.section-container {
+    font-family: var(--font-family);
+    background-size: 10px;
+    background-color: #0d1117;
+    height: 100px;
+    border-radius: 18px;
+    padding: 10px;
+}
+
+body {
+    font-family: var(--font-family);
+    color:var(--text);
+    background:
+      radial-gradient(circle at 10% 10%, rgba(94,234,212,0.06), transparent 40%),
+      radial-gradient(circle at 80% 80%, rgba(125,211,252,0.06), transparent 40%),
+      #0d1117;
+    margin: auto;
+    /* margin: 70px; */
+    min-height:100vh;
+    /* min-width: 100vw; */
+    padding:40px 16px;
+    /* padding: 15px; */
+    border: 2px solid red;
+}
